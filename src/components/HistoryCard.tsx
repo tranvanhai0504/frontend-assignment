@@ -12,14 +12,14 @@ import {
   TableRow,
 } from '@/components/ui/table'
 
-type HistoryType = {
+export type HistoryType = {
   digest: string
   receiver: string
   age: string
   amount: string
 }
 
-const History = () => {
+const HistoryCard = () => {
   const [history, setHistory] = useState<HistoryType[]>([])
 
   useEffect(() => {
@@ -31,7 +31,7 @@ const History = () => {
   }, [])
 
   return (
-    <div className="flex flex-col px-20">
+    <div className="flex w-full flex-col rounded-xl border p-4 shadow">
       <h1 className="text-xl font-semibold text-primary">
         History transactions
       </h1>
@@ -40,13 +40,13 @@ const History = () => {
           <TableRow>
             <TableHead>Digest</TableHead>
             <TableHead>Receiver address</TableHead>
-            <TableHead>Age</TableHead>
+            <TableHead>Time Stamp</TableHead>
             <TableHead>Amount</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
           {history.map((h, index) => (
-            <TableRow key={index} className="text-black/70">
+            <TableRow key={index} className="">
               <TableCell className="font-medium">{h.digest}</TableCell>
               <TableCell>{h.receiver}</TableCell>
               <TableCell>{h.age}</TableCell>
@@ -70,4 +70,4 @@ const History = () => {
   )
 }
 
-export default History
+export default HistoryCard
