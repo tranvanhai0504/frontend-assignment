@@ -39,5 +39,3 @@ This repository is designed to build a simple, user-friendly, and functional int
 You must switch your network on your wallet to make sure that the network (application and wallet) matching and the transaction will be sign successfull:
 - On Sui Wallet: Click on the ⚙️ icon on the top right corner and change network.
 - On Suiet: Click on network name on top right corner and change network
-
-![62_1x_shots_so](https://github.com/user-attachments/assets/52d709fb-9482-4db8-9096-fd78e9eca39f)
