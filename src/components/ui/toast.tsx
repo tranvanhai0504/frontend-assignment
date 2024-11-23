@@ -91,7 +91,7 @@ const ToastAction = React.forwardRef<
 
         disabled:pointer-events-none disabled:opacity-50
 
-        focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ring
+        focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2
 
         group-[.destructive]:border-muted/40
         group-[.destructive]:hover:border-destructive/30

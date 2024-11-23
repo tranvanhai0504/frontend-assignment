@@ -74,7 +74,7 @@ const DialogContent = React.forwardRef<
 
           disabled:pointer-events-none
 
-          focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ring
+          focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2
 
           hover:opacity-100
         `}
