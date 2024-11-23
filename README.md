@@ -6,7 +6,7 @@ This repository is designed to build a simple, user-friendly, and functional int
 - Change the network (testnet - mainnet)
 - View transfer history
 
-***🌈Demo: [blockchain-intergration-cdln.vercel.app](https://blockchain-intergration-cdln.vercel.app/)
+***🌈Demo: [https://frontend-assignment-one-self.vercel.app/](https://frontend-assignment-one-self.vercel.app/)
 
 ## Technical
 - Nextjs14
@@ -19,7 +19,7 @@ This repository is designed to build a simple, user-friendly, and functional int
 ***Setup Project***
 - Clone this repo:
   ```bash
-   git clone https://github.com/phuquiivo03/blockchain-intergration.git
+   git clone https://github.com/tranvanhai0504/frontend-assignment.git
   ```
 - Move to project
   ```bash
